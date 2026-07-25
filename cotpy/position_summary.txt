@@ -2,7 +2,7 @@
 COT POSITION SUMMARY REPORT
 ====================================================================================================
 Data as of: 2026-07-21
-Report generated: 2026-07-25 13:27
+Report generated: 2026-07-25 13:34
 Contracts tracked: 38
 Key markets: 17
 
@@ -136,4 +136,4 @@ LEGEND
   Lean Bear   = Divergence <= 25th percentile
   STRONG BEAR = Divergence <= 10th percentile
 ====================================================================================================
-© 2026 CSFox. All rights reserved.
+© 2026 csfox.com. All rights reserved.
