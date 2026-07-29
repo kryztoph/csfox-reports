@@ -9,118 +9,19 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<p><strong>Generated:</strong> 2026-07-29 13:26:09 EDT (America/New_York)</p>
-<p><strong>Live-data note:</strong> This report was generated from a live Robinhood scan at execution time; results, prices, and indicators may change on a subsequent run.</p>
+<p><strong>Generated:</strong> 2026-07-29T18:03:18-0400 (America/New_York) <strong>Status:</strong> Error</p>
+<h2>Scan</h2>
 <ul>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Total matching instruments:</strong> 9</li>
-<li><strong>Live sort order:</strong> Market cap descending</li>
+<li><strong>Saved scan:</strong> Oversold Reversion</li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</li>
 </ul>
-<div class="table-wrap"><table><thead><tr>
-<th>Symbol</th>
-<th>Name</th>
-<th>Last</th>
-<th>RSI</th>
-<th>% Change</th>
-<th>Market Cap</th>
-<th>Volume</th>
-<th>Relative Volume</th>
-</tr></thead><tbody>
-<tr>
-<td>FER</td>
-<td>Ferrovial SE</td>
-<td>$62.726</td>
-<td>29.8415</td>
-<td>+1.5477%</td>
-<td>$44.184B</td>
-<td>3.662M</td>
-<td>1.9648</td>
-</tr>
-<tr>
-<td>SPRY</td>
-<td>ARS Pharmaceuticals</td>
-<td>$5.61</td>
-<td>23.3576</td>
-<td>-1.0582%</td>
-<td>$562.553M</td>
-<td>4.471M</td>
-<td>3.3018</td>
-</tr>
-<tr>
-<td>MBVI</td>
-<td>M3-Brigade Acquisition VI Corp.</td>
-<td>$10.17</td>
-<td>27.1711</td>
-<td>0.0000%</td>
-<td>$438.581M</td>
-<td>8,332</td>
-<td>28.5742</td>
-</tr>
-<tr>
-<td>INTG</td>
-<td>Intergroup</td>
-<td>$28.35</td>
-<td>27.9608</td>
-<td>-1.9370%</td>
-<td>$60.940M</td>
-<td>32,681</td>
-<td>1.5632</td>
-</tr>
-<tr>
-<td>RYM</td>
-<td>RYTHM, Inc.</td>
-<td>$18.39</td>
-<td>27.8954</td>
-<td>-3.2105%</td>
-<td>$41.403M</td>
-<td>17,848</td>
-<td>4.1691</td>
-</tr>
-<tr>
-<td>FEDU</td>
-<td>Four Seasons Education (Cayman) Inc. ADS</td>
-<td>$8.66</td>
-<td>23.2812</td>
-<td>+7.4442%</td>
-<td>$18.227M</td>
-<td>468</td>
-<td>1.9419</td>
-</tr>
-<tr>
-<td>PTN</td>
-<td>Palatin Technologies</td>
-<td>$7.95</td>
-<td>29.9391</td>
-<td>+3.5156%</td>
-<td>$13.665M</td>
-<td>7,821</td>
-<td>1.1480</td>
-</tr>
-<tr>
-<td>GYRO</td>
-<td>Gyrodyne</td>
-<td>$5.67</td>
-<td>18.8353</td>
-<td>+0.7105%</td>
-<td>$12.382M</td>
-<td>2,501</td>
-<td>1.1103</td>
-</tr>
-<tr>
-<td>AKAN</td>
-<td>Akanda</td>
-<td>$6.88</td>
-<td>25.1487</td>
-<td>+10.9677%</td>
-<td>$3.353M</td>
-<td>102,902</td>
-<td>1.4712</td>
-</tr>
-</tbody></table></div>
-<h2>Interpretation</h2>
-<p>All nine matches satisfy the scan's oversold RSI and elevated-relative-volume conditions. The live set spans a wide range of market capitalizations and liquidity, with price changes ranging from approximately -3.21% to +10.97%. These signals are descriptive screening results, not forecasts or confirmations of a reversal.</p>
-<p><strong>No trading actions were taken.</strong> This is a read-only report; it does not constitute investment advice or a recommendation to buy, sell, or hold any security.</p>
+<h2>Error</h2>
+<p>The Robinhood MCP scan failed before returning live results.</p>
+<pre><code class="language-text">OAuth authorization for &#x27;robinhood&#x27; timed out after 60s; aborting.
+OAuth authorization failed while waiting for callback.
+Call to robinhood.run_scan timed out after 60000ms. Override MCPORTER_CALL_TIMEOUT or pass --timeout to adjust.</code></pre>
+<p>No matching-instrument total or rows are available for this run. This report contains no trading actions. The job is read-only and does not place, review, cancel, or modify orders, watchlists, scans, accounts, or trading settings.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
