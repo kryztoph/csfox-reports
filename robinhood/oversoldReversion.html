@@ -9,14 +9,48 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<h2>Scan error</h2>
 <ul>
-<li><strong>Generated:</strong> 2026-07-30 18:04:23 EDT (America/New_York)</li>
+<li><strong>Generated:</strong> 2026-07-31 05:00:23 EDT (America/New_York)</li>
+<li><strong>Data:</strong> Live Robinhood MCP scan response at generation time. This report is not a historical snapshot and may change on the next run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Error returned:</strong> <code>401 Unauthorized</code> when connecting to the Robinhood MCP server at <code>https://agent.robinhood.com/mcp/trading</code>.</li>
+<li><strong>Saved scan:</strong> Oversold Reversion</li>
+<li><strong>Sort order:</strong> Market cap descending (<code>Market cap desc</code>)</li>
 </ul>
-<p>The live scan could not be executed, so no matching-instrument total or result rows are available for this report.</p>
-<p>This is a read-only report. No trading, order, watchlist, scan, account, or trading-setting actions were performed.</p>
+<h2>Criteria</h2>
+<ul>
+<li>US stocks</li>
+<li>Daily 14-period RSI <code>&lt; 30</code></li>
+<li>Daily 30-period relative volume <code>&gt; 1</code></li>
+<li>Last price <code>&gt; $5</code></li>
+</ul>
+<h2>Results</h2>
+<p><strong>Total matching instruments: 0</strong></p>
+<p>No instruments matched all scan criteria in the live response.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Last</th>
+<th>RSI</th>
+<th>% Change</th>
+<th>Market Cap</th>
+<th>Volume</th>
+<th>Relative Volume</th>
+</tr></thead><tbody>
+<tr>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody></table></div>
+<h2>Interpretation</h2>
+<p>The scan returned no current matches. This is an informational observation of the configured technical filters, not a prediction or recommendation; results can change as market data updates.</p>
+<h2>Disclaimer</h2>
+<p>Read-only report. No trading, order review, cancellation, watchlist, scan, account, or trading-setting actions were placed, reviewed, cancelled, or modified. This report is not investment advice.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
