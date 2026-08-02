@@ -1,13 +1,12 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-07-21
-Generated: 2026-07-25 13:34
+Data as of: 2026-07-28
+Generated: 2026-08-01 11:05
 
-Strong Bullish: 2 | Moderate Bullish: 1
-Strong Bearish: 1 | Moderate Bearish: 4
+Strong Bullish: 1 | Moderate Bullish: 5
+Strong Bearish: 1 | Moderate Bearish: 5
 
 STRONG BULLISH:
-  10Y NOTES (Div: 99)
-  EUR/USD (Div: 90)
+  EUR/USD (Div: 96)
 
 STRONG BEARISH:
   DOW JONES (Div: 1)
