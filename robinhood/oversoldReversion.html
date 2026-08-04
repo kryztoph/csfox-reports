@@ -10,12 +10,13 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-04 11:33:19 EDT (America/New_York)</li>
-<li><strong>Data:</strong> Live market-data scan evaluated at execution time; results may change on the next run.</li>
+<li><strong>Generated:</strong> 2026-08-04 12:34:32 EDT (America/New_York)</li>
+<li><strong>Data status:</strong> Live market-data scan; results reflect conditions at execution time and may change on the next run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
 <li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Total matching instruments:</strong> 4</li>
-<li><strong>Sort order:</strong> Market cap descending (live sorted order)</li>
+<li><strong>Total matching instruments:</strong> <strong>6</strong></li>
+<li><strong>Returned rows:</strong> 6 of 6; payload was not truncated.</li>
+<li><strong>Sort order:</strong> Market cap descending (as returned by Robinhood).</li>
 </ul>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
@@ -30,12 +31,22 @@
 <tr>
 <td>AIAI</td>
 <td>AIAI Holdings Corporation</td>
-<td>$5.22</td>
+<td>$5.04</td>
 <td>24.61</td>
-<td>+4.82%</td>
+<td>+1.20%</td>
 <td>$351.57M</td>
-<td>106,493.0</td>
-<td>1.02x</td>
+<td>139,075.0</td>
+<td>1.33x</td>
+</tr>
+<tr>
+<td>IPFX</td>
+<td>Inflection Point Acquisition Corp. VI</td>
+<td>$10.09</td>
+<td>27.38</td>
+<td>+0.10%</td>
+<td>$340.03M</td>
+<td>43,171.6</td>
+<td>1.57x</td>
 </tr>
 <tr>
 <td>PNI</td>
@@ -44,8 +55,8 @@
 <td>25.66</td>
 <td>+0.44%</td>
 <td>$76.22M</td>
-<td>36,453.2</td>
-<td>1.09x</td>
+<td>45,651.2</td>
+<td>1.36x</td>
 </tr>
 <tr>
 <td>VLT</td>
@@ -54,23 +65,33 @@
 <td>29.07</td>
 <td>+0.50%</td>
 <td>$65.11M</td>
-<td>24,148.2</td>
-<td>1.36x</td>
+<td>29,251.5</td>
+<td>1.65x</td>
+</tr>
+<tr>
+<td>GSIW</td>
+<td>Garden Stage Limited</td>
+<td>$19.65</td>
+<td>28.48</td>
+<td>0.00%</td>
+<td>$27.75M</td>
+<td>3,069.6</td>
+<td>1.44x</td>
 </tr>
 <tr>
 <td>GYRO</td>
 <td>Gyrodyne</td>
-<td>$5.45</td>
+<td>$5.47</td>
 <td>18.32</td>
-<td>-0.91%</td>
+<td>-0.55%</td>
 <td>$12.10M</td>
-<td>371.5</td>
-<td>1.66x</td>
+<td>890.5</td>
+<td>3.97x</td>
 </tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan currently identifies four stocks meeting the defined oversold-RSI, above-average-volume, and minimum-price conditions. Three are modestly positive on the reported session, while GYRO is lower; the results are informational signals rather than forecasts or recommendations.</p>
-<p><strong>No trading actions were taken. This report is not investment advice and does not constitute a recommendation to buy or sell.</strong></p>
+<p>The scan identifies six stocks meeting the configured oversold-RSI, above-average-volume, and price filters. All returned RSI values are below 30; GYRO has the lowest RSI and highest relative volume in this snapshot. These signals are descriptive and do not establish that a rebound will occur.</p>
+<blockquote><strong>Disclaimer:</strong> Informational report only. No trading actions were taken. This report is not investment advice or a recommendation to buy, sell, or hold any security.</blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
