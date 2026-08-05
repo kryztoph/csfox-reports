@@ -10,14 +10,13 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-05 09:14:27 EDT (America/New_York)</li>
-<li><strong>Data:</strong> Live Robinhood market-scan data retrieved at generation time; results may change on a subsequent run.</li>
+<li><strong>Generated:</strong> 2026-08-05 10:16:51 EDT (America/New_York)</li>
+<li><strong>Data:</strong> Live market-data snapshot from Robinhood at execution time; results may change on a subsequent run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
 <li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Sort order:</strong> Market cap descending (<code>Market cap desc</code>).</li>
-<li><strong>Total matching instruments:</strong> <strong>0</strong></li>
+<li><strong>Sort order:</strong> Market cap descending (live order returned by the scan).</li>
+<li><strong>Total matching instruments:</strong> <strong>1</strong></li>
 </ul>
-<p>No instruments matched the scan criteria at the time of this run. No rows were returned.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -28,11 +27,20 @@
 <th>Volume</th>
 <th>Relative Volume</th>
 </tr></thead><tbody>
+<tr>
+<td>TDWD</td>
+<td>Tailwind 2.0 Acquisition Corp</td>
+<td>$10.06</td>
+<td>29.59</td>
+<td>-0.10%</td>
+<td>$237.10M</td>
+<td>25,003</td>
+<td>49.41x</td>
+</tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan currently identifies no stocks simultaneously meeting the configured oversold, relative-volume, price, and asset-type conditions. This is informational only and is not a prediction or recommendation.</p>
-<h2>Disclaimer</h2>
-<p>No trading actions were taken. This report does not constitute investment advice, a solicitation, or a recommendation to buy or sell any security.</p>
+<p>The scan currently identifies one stock meeting the specified oversold and activity criteria. TDWD’s RSI is just below 30, while its relative volume is substantially above average; these signals may indicate elevated trading interest alongside recent weakness, but they do not establish a reversal or predict future performance.</p>
+<blockquote><strong>No-trading-actions disclaimer:</strong> This is an informational, read-only screening report. No orders, reviews, cancellations, watchlist changes, scan changes, account changes, or other trading actions were performed. This is not investment advice.</blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
