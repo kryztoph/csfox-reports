@@ -10,14 +10,14 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-13 08:57:37 EDT (America/New_York)</li>
-<li><strong>Data:</strong> Live market-data snapshot from Robinhood MCP at execution time; values may change on subsequent runs.</li>
+<li><strong>Generated:</strong> 2026-08-13 09:59:06 EDT (America/New_York)</li>
+<li><strong>Data:</strong> Live Robinhood market-scan results captured at generation time; results may change on a subsequent run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</li>
-<li><strong>Sort order:</strong> Market cap descending (live sorted order returned by the scan).</li>
-<li><strong>Total matching instruments:</strong> <strong>6</strong></li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
+<li><strong>Sort order:</strong> Market cap descending (as returned by Robinhood).</li>
+<li><strong>Total matching instruments:</strong> <strong>0</strong></li>
 </ul>
-<h2>Matching instruments</h2>
+<p>No instruments matched the saved scan criteria at the time of this live run.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -28,70 +28,11 @@
 <th>Volume</th>
 <th>Relative Volume</th>
 </tr></thead><tbody>
-<tr>
-<td><a href="https://finviz.com/stock?t=GUAC&amp;p=d">GUAC</a></td>
-<td>Berto Acquisition Corp. II</td>
-<td>$9.93</td>
-<td>28.72</td>
-<td>-0.25%</td>
-<td>$392,102,562</td>
-<td>26,962</td>
-<td>2x</td>
-</tr>
-<tr>
-<td><a href="https://finviz.com/stock?t=IDAC&amp;p=d">IDAC</a></td>
-<td>Iron Dome Acquisition I Corp. Class A</td>
-<td>$9.8901</td>
-<td>28.25</td>
-<td>-0.90%</td>
-<td>$216,734,508</td>
-<td>4,118</td>
-<td>2x</td>
-</tr>
-<tr>
-<td><a href="https://finviz.com/stock?t=QMLS&amp;p=d">QMLS</a></td>
-<td>QumulusAI</td>
-<td>$6.36</td>
-<td>21.32</td>
-<td>+1.11%</td>
-<td>$205,424,568</td>
-<td>813,990.321086</td>
-<td>2x</td>
-</tr>
-<tr>
-<td><a href="https://finviz.com/stock?t=ATTO&amp;p=d">ATTO</a></td>
-<td>Attovia Therapeutics</td>
-<td>$18.06</td>
-<td>0</td>
-<td>0.00%</td>
-<td>—</td>
-<td>1,207,751.689782</td>
-<td>2x</td>
-</tr>
-<tr>
-<td><a href="https://finviz.com/stock?t=BRVE&amp;p=d">BRVE</a></td>
-<td>Braveheart Bio</td>
-<td>$26.12</td>
-<td>22.53</td>
-<td>-0.11%</td>
-<td>—</td>
-<td>1,268,192.928926</td>
-<td>2x</td>
-</tr>
-<tr>
-<td><a href="https://finviz.com/stock?t=QVCG&amp;p=d">QVCG</a></td>
-<td>QVC Group</td>
-<td>$15.5</td>
-<td>0</td>
-<td>-2.33%</td>
-<td>—</td>
-<td>107,381.335734</td>
-<td>2x</td>
-</tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan identifies six stocks meeting the configured oversold-RSI and elevated-relative-volume conditions. The returned set includes mostly modestly negative daily moves, alongside one positive mover; this describes the current screen only and does not establish a reversal or its likelihood.</p>
-<blockquote><strong>No trading actions were taken. This report is informational only and is not investment advice or a recommendation to buy, sell, or hold any security.</strong></blockquote>
+<p>The scan currently identifies no stocks simultaneously meeting its oversold-RSI, elevated-relative-volume, price, and US-stock filters. This is an informational snapshot, not a forecast or recommendation.</p>
+<h2>Disclaimer</h2>
+<p>No trading actions were taken. This report is for informational purposes only and is not investment advice. Do not interpret scan membership as a recommendation to buy, sell, or trade any security.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
