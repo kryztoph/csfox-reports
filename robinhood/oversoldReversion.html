@@ -10,14 +10,14 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-13 09:59:06 EDT (America/New_York)</li>
-<li><strong>Data:</strong> Live Robinhood market-scan results captured at generation time; results may change on a subsequent run.</li>
+<li><strong>Generated:</strong> 2026-08-13 11:00:14 EDT (America/New_York)</li>
+<li><strong>Data:</strong> Live Robinhood market-data scan; results may change on subsequent runs.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Sort order:</strong> Market cap descending (as returned by Robinhood).</li>
-<li><strong>Total matching instruments:</strong> <strong>0</strong></li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</li>
+<li><strong>Total matching instruments:</strong> 2</li>
+<li><strong>Returned sort order:</strong> Market cap descending</li>
 </ul>
-<p>No instruments matched the saved scan criteria at the time of this live run.</p>
+<h2>Matching instruments</h2>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -28,11 +28,30 @@
 <th>Volume</th>
 <th>Relative Volume</th>
 </tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=MBBC&amp;p=d">MBBC</a></td>
+<td>Marathon Bancorp</td>
+<td>$14.26</td>
+<td>24.44</td>
+<td>0.70%</td>
+<td>$41.78M</td>
+<td>11,213.08</td>
+<td>9.51x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=YXT&amp;p=d">YXT</a></td>
+<td>YXT.COM Group Holding Limited</td>
+<td>$5.17</td>
+<td>3.88</td>
+<td>14.13%</td>
+<td>$27.62M</td>
+<td>5,709,313.63</td>
+<td>16.22x</td>
+</tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan currently identifies no stocks simultaneously meeting its oversold-RSI, elevated-relative-volume, price, and US-stock filters. This is an informational snapshot, not a forecast or recommendation.</p>
-<h2>Disclaimer</h2>
-<p>No trading actions were taken. This report is for informational purposes only and is not investment advice. Do not interpret scan membership as a recommendation to buy, sell, or trade any security.</p>
+<p>The scan currently identifies two stocks meeting the oversold-RSI, elevated-relative-volume, and price criteria. YXT has the lower RSI and higher relative volume, while both instruments are showing positive session changes. These are descriptive screen characteristics, not forecasts or recommendations.</p>
+<p><strong>No trading actions were taken. This report is informational only and is not investment advice.</strong></p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
