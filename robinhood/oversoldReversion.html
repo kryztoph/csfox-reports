@@ -10,12 +10,12 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-13 07:55:27 EDT (America/New_York)</li>
-<li><strong>Data:</strong> Live Robinhood market scan results at execution time; values may change on a subsequent run.</li>
+<li><strong>Generated:</strong> 2026-08-13 08:57:37 EDT (America/New_York)</li>
+<li><strong>Data:</strong> Live market-data snapshot from Robinhood MCP at execution time; values may change on subsequent runs.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Total matching instruments:</strong> <strong>7</strong></li>
-<li><strong>Returned order:</strong> Market cap descending, as provided by the scan.</li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</li>
+<li><strong>Sort order:</strong> Market cap descending (live sorted order returned by the scan).</li>
+<li><strong>Total matching instruments:</strong> <strong>6</strong></li>
 </ul>
 <h2>Matching instruments</h2>
 <div class="table-wrap"><table><thead><tr>
@@ -32,27 +32,17 @@
 <td><a href="https://finviz.com/stock?t=GUAC&amp;p=d">GUAC</a></td>
 <td>Berto Acquisition Corp. II</td>
 <td>$9.93</td>
-<td>28.724</td>
+<td>28.72</td>
 <td>-0.25%</td>
 <td>$392,102,562</td>
 <td>26,962</td>
 <td>2x</td>
 </tr>
 <tr>
-<td><a href="https://finviz.com/stock?t=WLCO&amp;p=d">WLCO</a></td>
-<td>Wilco 63 Corporation Class A</td>
-<td>$9.8</td>
-<td>0.000</td>
-<td>0.10%</td>
-<td>$281,462,500</td>
-<td>9,438</td>
-<td>2x</td>
-</tr>
-<tr>
 <td><a href="https://finviz.com/stock?t=IDAC&amp;p=d">IDAC</a></td>
 <td>Iron Dome Acquisition I Corp. Class A</td>
 <td>$9.8901</td>
-<td>28.254</td>
+<td>28.25</td>
 <td>-0.90%</td>
 <td>$216,734,508</td>
 <td>4,118</td>
@@ -61,47 +51,47 @@
 <tr>
 <td><a href="https://finviz.com/stock?t=QMLS&amp;p=d">QMLS</a></td>
 <td>QumulusAI</td>
-<td>$6.24</td>
-<td>21.321</td>
-<td>-0.79%</td>
+<td>$6.36</td>
+<td>21.32</td>
+<td>+1.11%</td>
 <td>$205,424,568</td>
-<td>813,990.321</td>
+<td>813,990.321086</td>
 <td>2x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=ATTO&amp;p=d">ATTO</a></td>
 <td>Attovia Therapeutics</td>
 <td>$18.06</td>
-<td>0.000</td>
+<td>0</td>
 <td>0.00%</td>
 <td>—</td>
-<td>1,207,751.69</td>
+<td>1,207,751.689782</td>
 <td>2x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=BRVE&amp;p=d">BRVE</a></td>
 <td>Braveheart Bio</td>
 <td>$26.12</td>
-<td>22.533</td>
+<td>22.53</td>
 <td>-0.11%</td>
 <td>—</td>
-<td>1,268,192.929</td>
+<td>1,268,192.928926</td>
 <td>2x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=QVCG&amp;p=d">QVCG</a></td>
 <td>QVC Group</td>
 <td>$15.5</td>
-<td>0.000</td>
+<td>0</td>
 <td>-2.33%</td>
 <td>—</td>
-<td>107,381.336</td>
+<td>107,381.335734</td>
 <td>2x</td>
 </tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan identifies seven stocks meeting the configured oversold and relative-volume conditions. Most returned rows show negative daily changes, while several display an RSI of <code>0</code>; these are provider-supplied scan values and may warrant data-quality/context review before drawing conclusions. This is an informational snapshot, not a forecast or recommendation.</p>
-<blockquote><strong>No trading actions were taken. This report is not investment advice and does not constitute a recommendation to buy, sell, or hold any security.</strong></blockquote>
+<p>The scan identifies six stocks meeting the configured oversold-RSI and elevated-relative-volume conditions. The returned set includes mostly modestly negative daily moves, alongside one positive mover; this describes the current screen only and does not establish a reversal or its likelihood.</p>
+<blockquote><strong>No trading actions were taken. This report is informational only and is not investment advice or a recommendation to buy, sell, or hold any security.</strong></blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
