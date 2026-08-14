@@ -10,14 +10,14 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-14 13:34:24 EDT (America/New_York)</li>
-<li><strong>Data status:</strong> Live market-data scan executed at generation time; values may change on subsequent runs.</li>
+<li><strong>Generated:</strong> 2026-08-14 14:35:43 EDT (America/New_York)</li>
+<li><strong>Data status:</strong> Live Robinhood market-data scan as of generation time; results can change on subsequent runs.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI &lt; 30; daily 30-period relative volume &gt; 1; last price &gt; $5.</li>
-<li><strong>Sort order:</strong> Market cap descending (live scan order).</li>
-<li><strong>Total matching instruments:</strong> <strong>6</strong></li>
-<li><strong>Payload status:</strong> Complete; 6 rows returned for 6 total matches.</li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</li>
+<li><strong>Total matching instruments:</strong> <strong>7</strong></li>
+<li><strong>Returned order:</strong> Market cap descending (live sorted order).</li>
 </ul>
+<h2>Matching instruments</h2>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -29,69 +29,79 @@
 <th>Relative Volume</th>
 </tr></thead><tbody>
 <tr>
+<td><a href="https://finviz.com/stock?t=AMX&amp;p=d">AMX</a></td>
+<td>America Movil</td>
+<td>23.51</td>
+<td>25.61</td>
+<td>+1.07%</td>
+<td>6.9857824907e+10</td>
+<td>1.252622616317e+06</td>
+<td>1.06x</td>
+</tr>
+<tr>
 <td><a href="https://finviz.com/stock?t=VIV&amp;p=d">VIV</a></td>
 <td>Telefonica Brasil, S.A</td>
-<td>$11.29</td>
+<td>11.335</td>
 <td>23.03</td>
-<td>-0.44%</td>
-<td>$18.07B</td>
-<td>4.35M</td>
-<td>1.90x</td>
+<td>-0.04%</td>
+<td>1.8073027613e+10</td>
+<td>4.689907544722e+06</td>
+<td>2.05x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=RBA&amp;p=d">RBA</a></td>
 <td>RB Global</td>
-<td>$85.06</td>
+<td>85.09</td>
 <td>24.37</td>
-<td>-1.56%</td>
-<td>$15.98B</td>
-<td>1.74M</td>
-<td>1.12x</td>
+<td>-1.53%</td>
+<td>1.5981789947e+10</td>
+<td>2.103260914155e+06</td>
+<td>1.35x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=WLCO&amp;p=d">WLCO</a></td>
 <td>Wilco 63 Corporation Class A</td>
-<td>$9.79</td>
+<td>9.79</td>
 <td>9.54</td>
 <td>-0.10%</td>
-<td>$281.75M</td>
-<td>31.11K</td>
+<td>2.8175e+08</td>
+<td>31114</td>
 <td>7.74x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=CAPR&amp;p=d">CAPR</a></td>
 <td>Capricor</td>
-<td>$6.39</td>
+<td>6.385</td>
 <td>18.64</td>
-<td>+51.78%</td>
-<td>$243.81M</td>
-<td>57.20M</td>
-<td>3.42x</td>
+<td>+51.66%</td>
+<td>2.43809069e+08</td>
+<td>5.8814753603862e+07</td>
+<td>3.51x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=GYRO&amp;p=d">GYRO</a></td>
 <td>Gyrodyne</td>
-<td>$5.4487</td>
+<td>5.4487</td>
 <td>14.19</td>
 <td>+0.16%</td>
-<td>$11.96M</td>
-<td>4.06K</td>
+<td>1.1964235e+07</td>
+<td>4055.4761</td>
 <td>2.84x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=AKAN&amp;p=d">AKAN</a></td>
 <td>Akanda</td>
-<td>$6.90</td>
+<td>6.7798</td>
 <td>29.27</td>
-<td>+37.72%</td>
-<td>$2.71M</td>
-<td>13.71M</td>
-<td>1.28x</td>
+<td>+35.33%</td>
+<td>2.709613e+06</td>
+<td>1.3999626514618e+07</td>
+<td>1.31x</td>
 </tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan identifies six stocks with daily RSI below 30 alongside above-average 30-period relative volume and prices above $5. Several names are showing positive day-over-day changes despite the oversold RSI condition, while others remain down; this is descriptive screening information, not a forecast or signal of a guaranteed reversal.</p>
-<blockquote><strong>No-trading-actions disclaimer:</strong> This report is informational only. No orders, reviews, cancellations, watchlists, scans, accounts, or trading settings were placed, reviewed, cancelled, or modified by this job. Oversold conditions do not by themselves establish suitability or imply a trade.</blockquote>
+<p>The scan identifies seven stocks with RSI readings below 30 alongside above-average daily relative volume. The group includes both modest moves and unusually large positive changes, so the oversold and volume conditions do not by themselves indicate a uniform reversal pattern or outcome.</p>
+<blockquote><strong>No trading actions were taken.</strong> This report is informational only and is not investment advice or a recommendation to buy, sell, or hold any security.</blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
