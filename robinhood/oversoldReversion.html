@@ -10,16 +10,14 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-15 18:12:39 EDT (America/New_York)</li>
-<li><strong>Data status:</strong> Live market-data scan executed at generation time; results may differ on a subsequent run.</li>
+<li><strong>Generated:</strong> 2026-08-15 19:21:23 EDT (America/New_York)</li>
+<li><strong>Data status:</strong> Live Robinhood market-data scan executed at generation time; results may change on a subsequent run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Scan title:</strong> Oversold Reversion</li>
-<li><strong>Sort order:</strong> Market cap descending (<code>Market cap desc</code>)</li>
 <li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
+<li><strong>Sort order:</strong> Market cap descending (live scan order).</li>
 <li><strong>Total matching instruments:</strong> <strong>0</strong></li>
 </ul>
-<p>No instruments matched the saved scan criteria at the time of this live run. The response returned zero rows, so there is no truncated payload to report.</p>
-<h2>Matching instruments</h2>
+<p>No instruments matched the scan criteria at the time of this live execution. The returned payload was not truncated (<code>0</code> rows available from <code>0</code> total matches).</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -31,9 +29,9 @@
 <th>Relative Volume</th>
 </tr></thead><tbody>
 </tbody></table></div>
-<h2>Interpretation</h2>
-<p>The scan found no stocks currently satisfying all specified oversold, relative-volume, price, and asset-type conditions. This is an informational snapshot, not a forecast or recommendation.</p>
-<blockquote><strong>No-trading-actions disclaimer:</strong> This report is read-only and does not place, review, cancel, or modify any orders, watchlists, scans, accounts, or trading settings. It is not investment advice.</blockquote>
+<h3>Interpretation</h3>
+<p>No current matches were returned. This is an informational snapshot of the specified oversold and relative-volume conditions, not a prediction or recommendation; an empty result can change as market data updates.</p>
+<blockquote><strong>No trading actions were taken.</strong> This report is read-only and does not constitute investment advice. It does not place, review, cancel, or modify any order, watchlist, scan, account, or trading setting.</blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
