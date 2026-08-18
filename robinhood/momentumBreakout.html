@@ -8,16 +8,38 @@
 </style>
 </head>
 <body>
-<h1>Momentum Breakout</h1>
-<p><strong>Status:</strong> Scan failed <strong>Generated:</strong> 2026-08-17 07:04:45 EDT (America/New_York)</p>
-<h2>Error</h2>
-<p>The live Robinhood scan could not be completed.</p>
+<h1>Momentum Breakout Report</h1>
 <ul>
+<li><strong>Generated:</strong> 2026-08-17 20:20:52 America/New_York</li>
+<li><strong>Live-data note:</strong> This report reflects live market data returned by the scan at execution time; results may differ if the scan is run again later.</li>
 <li><strong>Scan ID:</strong> <code>a83f19b7-75f9-4613-ba3e-7719ab22e54d</code></li>
-<li><strong>Returned error:</strong> <code>MCP server 'robinhood_trading' transport is down; reconnect requested. Do NOT retry this tool immediately — give it a few seconds to come back.</code></li>
+<li><strong>Sort order:</strong> Market cap descending (live returned order)</li>
 </ul>
-<p>No matching instruments or market-data rows are reported because the scan did not return a payload.</p>
-<p>This report is informational only. No trading actions were taken, and this job does not place, review, cancel, or modify orders, watchlists, scans, accounts, or trading settings.</p>
+<h2>Criteria</h2>
+<ul>
+<li>US stocks</li>
+<li>Daily percentage change greater than 3%</li>
+<li>Daily 30-period relative volume greater than 1.5</li>
+<li>Last price greater than $5</li>
+</ul>
+<h2>Results</h2>
+<p><strong>Total matching instruments: 0</strong></p>
+<p>No instruments matched the criteria at execution time. No result rows were returned.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Last</th>
+<th>% Change</th>
+<th>Market Cap</th>
+<th>Volume</th>
+<th>Relative Volume</th>
+<th>Net Change</th>
+</tr></thead><tbody>
+</tbody></table></div>
+<h2>Interpretation</h2>
+<p>The scan found no instruments meeting all specified momentum, relative-volume, price, and stock-type conditions at the time of execution. This is informational only and is not a recommendation or prediction.</p>
+<h2>Disclaimer</h2>
+<p>No trading actions were taken. This report does not place, review, cancel, or modify orders, watchlists, scans, accounts, or trading settings, and it is not financial advice.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
