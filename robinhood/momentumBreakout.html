@@ -8,37 +8,16 @@
 </style>
 </head>
 <body>
-<h1>Momentum Breakout Report</h1>
+<h1>Momentum Breakout Report — Error</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-18T00:28:29.789929-04:00 (America/New_York)</li>
-<li><strong>Live-data note:</strong> This report reflects live Robinhood market data returned at execution time; results may differ if the scan is run again later.</li>
+<li><strong>Generated:</strong> 2026-08-18 18:08:03 EDT (America/New_York)</li>
 <li><strong>Scan ID:</strong> <code>a83f19b7-75f9-4613-ba3e-7719ab22e54d</code></li>
-<li><strong>Sort order:</strong> Live sorted order returned by Robinhood</li>
+<li><strong>Status:</strong> Scan failed</li>
 </ul>
-<h2>Criteria</h2>
-<ul>
-<li>US stocks</li>
-<li>Daily percentage change greater than 3%</li>
-<li>Daily 30-period relative volume greater than 1.5</li>
-<li>Last price greater than $5</li>
-</ul>
-<h2>Results</h2>
-<p><strong>Total matching instruments:</strong> 0 <strong>Displayed:</strong> 0 of 0 rows returned. No instruments matched the criteria at execution time. No result rows were returned.</p>
-<div class="table-wrap"><table><thead><tr>
-<th>Symbol</th>
-<th>Name</th>
-<th>Last</th>
-<th>% Change</th>
-<th>Market Cap</th>
-<th>Volume</th>
-<th>Relative Volume</th>
-<th>Net Change</th>
-</tr></thead><tbody>
-</tbody></table></div>
-<h2>Interpretation</h2>
-<p>This scan identifies US stocks meeting the specified momentum, relative-volume, price, and stock-type conditions. A match indicates only that the provider filters were met at capture time; it does not establish direction beyond the filter, cause, quality, or suitability of any investment.</p>
-<h2>Disclaimer</h2>
-<p>No trading actions were taken. This report is informational only and does not place, review, cancel, or modify orders, watchlists, scans, accounts, or trading settings; it is not financial advice.</p>
+<h2>Returned error</h2>
+<blockquote>Call to robinhood.run_scan timed out after 60000ms. Override MCPORTER_CALL_TIMEOUT or pass --timeout to adjust.</blockquote>
+<p>The Robinhood MCP server required OAuth authorization, but authorization timed out while waiting for browser approval. No live scan results are available for this report.</p>
+<p><strong>No trading actions were taken. This is a read-only report.</strong></p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
