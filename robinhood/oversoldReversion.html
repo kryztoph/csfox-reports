@@ -10,14 +10,14 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-08-20 10:54:39 PM America/New_York</li>
-<li><strong>Data status:</strong> Live Robinhood scan data retrieved at generation time.</li>
+<li><strong>Generated:</strong> 2026-08-21 13:08:00 EDT (America/New_York)</li>
+<li><strong>Data status:</strong> Live Robinhood market-data scan at generation time; results may change on subsequent runs.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI &lt; 30; daily 30-period relative volume &gt; 1; last price &gt; $5.</li>
-<li><strong>Total matching instruments:</strong> 0</li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</li>
+<li><strong>Sort order:</strong> Market cap descending (live returned order).</li>
+<li><strong>Total matching instruments:</strong> <strong>6</strong></li>
 </ul>
 <h2>Matching instruments</h2>
-<p>No instruments matched the saved scan criteria in the live response.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -28,10 +28,70 @@
 <th>Volume</th>
 <th>Relative Volume</th>
 </tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=MOG.B&amp;p=d">MOG.B</a></td>
+<td>Moog</td>
+<td>$383.89</td>
+<td>4.82</td>
+<td>-0.12%</td>
+<td>$12.09B</td>
+<td>219.958913</td>
+<td>1.09x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=CEPF&amp;p=d">CEPF</a></td>
+<td>Cantor Equity Partners IV, Inc. Class A</td>
+<td>$10.34</td>
+<td>27.86</td>
+<td>-0.10%</td>
+<td>$593.79M</td>
+<td>1202</td>
+<td>2.09x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=WLCO&amp;p=d">WLCO</a></td>
+<td>Wilco 63 Corporation Class A</td>
+<td>$9.79</td>
+<td>7.91</td>
+<td>0.10%</td>
+<td>$281.18M</td>
+<td>1046</td>
+<td>1.02x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=CGCF&amp;p=d">CGCF</a></td>
+<td>Cartesian Growth Corporation IV Class A</td>
+<td>$9.82</td>
+<td>0.00</td>
+<td>0.00%</td>
+<td>$270.05M</td>
+<td>812</td>
+<td>5.88x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=HVII&amp;p=d">HVII</a></td>
+<td>Hennessy Capital Investment Corp. VII</td>
+<td>$7.06</td>
+<td>2.77</td>
+<td>-13.69%</td>
+<td>$212.87M</td>
+<td>80610.143328</td>
+<td>1.74x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=AIFU&amp;p=d">AIFU</a></td>
+<td>AIFU Inc.</td>
+<td>$17.83</td>
+<td>24.55</td>
+<td>18.87%</td>
+<td>$88.89M</td>
+<td>20765.538343</td>
+<td>1.16x</td>
+</tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan returned no qualifying instruments at this run. This is descriptive market-screen output only and is not a recommendation or prediction.</p>
-<blockquote><strong>No-trading-actions disclaimer:</strong> This report is read-only. No orders, watchlists, scans, accounts, or trading settings were placed, reviewed, canceled, or modified.</blockquote>
+<p>The scan identifies six stocks meeting the configured oversold-RSI, above-average-relative-volume, price, and stock-type filters. The returned set spans a wide range of market capitalizations and daily moves; this is descriptive screening output, not evidence that a reversal will occur.</p>
+<blockquote><strong>Disclaimer:</strong> This report is informational only. No trading, order, watchlist, scan, account, or settings action was performed. It is not investment advice or a recommendation to buy or sell any security.</blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
