@@ -9,12 +9,15 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<p><strong>Generated:</strong> 2026-08-22 10:03:34 EDT (America/New_York)</p>
-<p><strong>Data note:</strong> Live Robinhood market-data scan; values can change on subsequent runs.</p>
-<p><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></p>
-<p><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</p>
-<p><strong>Total matching instruments:</strong> 10</p>
-<p><strong>Returned sort order:</strong> Market cap desc</p>
+<ul>
+<li><strong>Generated:</strong> 2026-08-22 11:12:49 EDT (America/New_York)</li>
+<li><strong>Data status:</strong> Live Robinhood market-data scan at execution time; results may change on subsequent runs.</li>
+<li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
+<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
+<li><strong>Sort order:</strong> Market cap descending (Robinhood live returned order).</li>
+<li><strong>Total matching instruments:</strong> <strong>10</strong></li>
+</ul>
+<p>All 10 matching rows were available; the payload was not truncated. Showing the first 25 rows at most.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -30,7 +33,7 @@
 <td>Southern</td>
 <td>$89.67</td>
 <td>29.62</td>
-<td>0.82%</td>
+<td>+0.82%</td>
 <td>$102.31B</td>
 <td>6.66M</td>
 <td>1.0000x</td>
@@ -40,7 +43,7 @@
 <td>American Electric Power</td>
 <td>$121.10</td>
 <td>29.45</td>
-<td>0.13%</td>
+<td>+0.13%</td>
 <td>$65.84B</td>
 <td>5.25M</td>
 <td>1.0000x</td>
@@ -48,7 +51,7 @@
 <tr>
 <td><a href="https://finviz.com/stock?t=CNP&amp;p=d">CNP</a></td>
 <td>CenterPoint Energy</td>
-<td>$38.76</td>
+<td>$38.765</td>
 <td>25.99</td>
 <td>-0.01%</td>
 <td>$25.54B</td>
@@ -60,7 +63,7 @@
 <td>DaVita</td>
 <td>$174.35</td>
 <td>24.23</td>
-<td>0.30%</td>
+<td>+0.30%</td>
 <td>$11.09B</td>
 <td>633.64K</td>
 <td>1.0000x</td>
@@ -78,7 +81,7 @@
 <tr>
 <td><a href="https://finviz.com/stock?t=BKD&amp;p=d">BKD</a></td>
 <td>Brookdale Senior Living</td>
-<td>$11.80</td>
+<td>$11.795</td>
 <td>27.49</td>
 <td>-0.04%</td>
 <td>$2.82B</td>
@@ -100,7 +103,7 @@
 <td>StubHub</td>
 <td>$6.72</td>
 <td>29.19</td>
-<td>0.60%</td>
+<td>+0.60%</td>
 <td>$2.55B</td>
 <td>5.57M</td>
 <td>1.0029x</td>
@@ -110,7 +113,7 @@
 <td>Weibo</td>
 <td>$7.06</td>
 <td>25.10</td>
-<td>0.43%</td>
+<td>+0.43%</td>
 <td>$1.77B</td>
 <td>1.66M</td>
 <td>1.0001x</td>
@@ -120,14 +123,15 @@
 <td>Anbio Biotechnology Class A</td>
 <td>$6.96</td>
 <td>27.20</td>
-<td>2.20%</td>
+<td>+2.20%</td>
 <td>$298.90M</td>
 <td>79.33K</td>
 <td>1.0000x</td>
 </tr>
 </tbody></table></div>
-<p><strong>Interpretation:</strong> The scan identifies stocks meeting the configured oversold and minimum relative-volume conditions. This is a screening snapshot, not a forecast; low RSI can persist and does not by itself indicate a reversal.</p>
-<p><strong>Disclaimer:</strong> Informational only. No trading actions were taken or recommended by this report.</p>
+<h2>Interpretation</h2>
+<p>The scan identifies 10 stocks with daily RSI below 30, indicating technically oversold conditions under this screen. Most are trading at relative volume only marginally above 1.0x, while the displayed price changes are mixed and generally modest. Oversold status alone does not establish a reversal, suitability, or expected return.</p>
+<blockquote><strong>No trading actions were taken. This report is informational only and is not investment advice.</strong></blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
