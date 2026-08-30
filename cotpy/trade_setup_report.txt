@@ -1,12 +1,8 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-08-18
-Generated: 2026-08-22 09:37
+Data as of: 2026-08-25
+Generated: 2026-08-29 12:08
 
-Strong Bullish: 0 | Moderate Bullish: 2
-Strong Bearish: 1 | Moderate Bearish: 7
-
-
-STRONG BEARISH:
-  DOW JONES (Div: 3)
+Strong Bullish: 0 | Moderate Bullish: 0
+Strong Bearish: 0 | Moderate Bearish: 5
 
 © 2026 csfox.com. All rights reserved.
