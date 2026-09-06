@@ -1,8 +1,12 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-08-25
-Generated: 2026-08-29 12:08
+Data as of: 2026-09-01
+Generated: 2026-09-05 18:30
 
-Strong Bullish: 0 | Moderate Bullish: 0
-Strong Bearish: 0 | Moderate Bearish: 5
+Strong Bullish: 0 | Moderate Bullish: 2
+Strong Bearish: 1 | Moderate Bearish: 6
+
+
+STRONG BEARISH:
+  SOYBEAN OIL (Div: 4)
 
 © 2026 csfox.com. All rights reserved.
