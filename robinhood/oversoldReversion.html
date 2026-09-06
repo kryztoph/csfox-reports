@@ -8,19 +8,211 @@
 </style>
 </head>
 <body>
-<h1>Oversold Reversion Report — Error</h1>
-<ul>
-<li><strong>Generated:</strong> 2026-09-05 02:28:05 EDT (America/New_York)</li>
-<li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Status:</strong> Scan failed</li>
-</ul>
-<h2>Error</h2>
-<p>The Robinhood MCP <code>run_scan</code> call could not complete because OAuth authorization timed out:</p>
-<blockquote>Call to robinhood.run_scan timed out after 60000ms. Override MCPORTER_CALL_TIMEOUT or pass --timeout to adjust.</blockquote>
-<p>The MCP client also reported:</p>
-<blockquote>OAuth authorization for 'robinhood' timed out after 60s; aborting.</blockquote>
-<p>No live scan results were available, so no instruments are reported.</p>
-<p>_Read-only job. No trading, order, watchlist, scan, account, or trading-setting actions were performed._</p>
+<h1>Oversold Reversion Report</h1>
+<p><strong>Generated:</strong> 2026-09-06T02:35:24-0400 (America/New_York) <strong>Data note:</strong> Live market-data scan executed at generation time; results may change on a subsequent run.</p>
+<p><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code> <strong>Total matching instruments:</strong> <strong>17</strong> <strong>Sort order:</strong> Market cap descending (live returned order)</p>
+<p><strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5.</p>
+<p><strong>Interpretation:</strong> This is an informational screen for securities meeting the stated oversold and activity criteria. It is not a forecast or recommendation.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Last</th>
+<th>RSI</th>
+<th>% Change</th>
+<th>Market Cap</th>
+<th>Volume</th>
+<th>Relative Volume</th>
+<th>Interpretation</th>
+</tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=FER&amp;p=d">FER</a></td>
+<td>Ferrovial SE</td>
+<td>$58.39</td>
+<td>27.79</td>
+<td>0.59%</td>
+<td>$41.65B</td>
+<td>1,013,781</td>
+<td>1.0001x</td>
+<td>Oversold momentum; price is up modestly.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=XYL&amp;p=d">XYL</a></td>
+<td>Xylem</td>
+<td>$105.71</td>
+<td>29.45</td>
+<td>0.02%</td>
+<td>$25.19B</td>
+<td>2,425,760</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is up modestly.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=CLX&amp;p=d">CLX</a></td>
+<td>Clorox</td>
+<td>$93.04</td>
+<td>29.84</td>
+<td>-0.02%</td>
+<td>$11.40B</td>
+<td>2,216,803</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is down.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=DY&amp;p=d">DY</a></td>
+<td>Dycom</td>
+<td>$300.13</td>
+<td>28.67</td>
+<td>-0.03%</td>
+<td>$8.91B</td>
+<td>520,949</td>
+<td>1.0008x</td>
+<td>Oversold momentum; price is down.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=PL&amp;p=d">PL</a></td>
+<td>Planet Labs</td>
+<td>$18.115</td>
+<td>28.61</td>
+<td>-0.03%</td>
+<td>$6.59B</td>
+<td>32,329,306</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is down.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=LYNX&amp;p=d">LYNX</a></td>
+<td>Lyntris Inc.</td>
+<td>$12.63</td>
+<td>23.14</td>
+<td>-0.32%</td>
+<td>$1.52B</td>
+<td>424,027</td>
+<td>1.0001x</td>
+<td>Oversold momentum; price is down.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=VISN&amp;p=d">VISN</a></td>
+<td>Vistance Networks</td>
+<td>$6.42</td>
+<td>23.09</td>
+<td>0.31%</td>
+<td>$1.47B</td>
+<td>6,258,852</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is up modestly.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=PSNY&amp;p=d">PSNY</a></td>
+<td>Polestar Automotive</td>
+<td>$9.23</td>
+<td>23.87</td>
+<td>0.22%</td>
+<td>$1.43B</td>
+<td>567,866</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is up modestly.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=FLO&amp;p=d">FLO</a></td>
+<td>Flowers Foods</td>
+<td>$6.27</td>
+<td>29.77</td>
+<td>0.00%</td>
+<td>$1.37B</td>
+<td>5,675,084</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is flat.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=IRMD&amp;p=d">IRMD</a></td>
+<td>iRadimed</td>
+<td>$83.55</td>
+<td>29.32</td>
+<td>0.12%</td>
+<td>$1.11B</td>
+<td>233,295</td>
+<td>1.0000x</td>
+<td>Oversold momentum; price is up modestly.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=TRIP&amp;p=d">TRIP</a></td>
+<td>TripAdvisor</td>
+<td>$9.325</td>
+<td>29.70</td>
+<td>0.00%</td>
+<td>$1.09B</td>
+<td>3,030,589</td>
+<td>1.0001x</td>
+<td>Oversold momentum; price is flat.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=OSPR&amp;p=d">OSPR</a></td>
+<td>Osprey Acquisition Corp. III Class A</td>
+<td>$9.84</td>
+<td>0.00</td>
+<td>0.00%</td>
+<td>$403.60M</td>
+<td>21,296</td>
+<td>1.0043x</td>
+<td>RSI is reported as 0; monitor data quality and context.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=SION&amp;p=d">SION</a></td>
+<td>Sionna Therapeutics</td>
+<td>$7.1302</td>
+<td>28.94</td>
+<td>-0.69%</td>
+<td>$305.18M</td>
+<td>926,275</td>
+<td>1.0001x</td>
+<td>Oversold momentum; price is down.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=JONE&amp;p=d">JONE</a></td>
+<td>Jones Ventures Acquisition I Corp</td>
+<td>$9.82</td>
+<td>0.00</td>
+<td>0.00%</td>
+<td>$281.90M</td>
+<td>154,487</td>
+<td>1.0006x</td>
+<td>RSI is reported as 0; monitor data quality and context.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=TRBG&amp;p=d">TRBG</a></td>
+<td>TurboGen</td>
+<td>$7.13</td>
+<td>0.00</td>
+<td>-2.86%</td>
+<td>$154.60M</td>
+<td>677,005</td>
+<td>1.0064x</td>
+<td>RSI is reported as 0; monitor data quality and context.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=GIXI&amp;p=d">GIXI</a></td>
+<td>Gix Internet</td>
+<td>$5.80</td>
+<td>0.00</td>
+<td>-0.85%</td>
+<td>$17.07M</td>
+<td>90,428</td>
+<td>1.0214x</td>
+<td>RSI is reported as 0; monitor data quality and context.</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=MBAI&amp;p=d">MBAI</a></td>
+<td>MBody AI Ltd.</td>
+<td>$6.46</td>
+<td>21.44</td>
+<td>-0.62%</td>
+<td>$9.15M</td>
+<td>21,303</td>
+<td>1.0069x</td>
+<td>Oversold momentum; price is down.</td>
+</tr>
+</tbody></table></div>
+<p><strong>Disclaimer:</strong> This report is for informational purposes only. It does not constitute investment advice. No trading action was taken or is implied; do not place trades based solely on this screen.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
