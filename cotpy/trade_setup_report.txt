@@ -1,14 +1,14 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-09-08
-Generated: 2026-09-12 12:01
+Data as of: 2026-09-15
+Generated: 2026-09-19 14:51
 
-Strong Bullish: 0 | Moderate Bullish: 2
-Strong Bearish: 3 | Moderate Bearish: 4
+Strong Bullish: 0 | Moderate Bullish: 3
+Strong Bearish: 3 | Moderate Bearish: 3
 
 
 STRONG BEARISH:
-  GOLD (Div: 1)
-  GASOLINE (Div: 6)
-  SOYBEAN OIL (Div: 6)
+  WHEAT (Div: 2)
+  SOYBEAN OIL (Div: 4)
+  SUGAR (Div: 8)
 
 © 2026 csfox.com. All rights reserved.
