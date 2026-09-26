@@ -2,7 +2,7 @@
 COT POSITION SUMMARY REPORT
 ====================================================================================================
 Data as of: 2026-09-22
-Report generated: 2026-09-26 07:01
+Report generated: 2026-09-26 15:07
 Contracts tracked: 38
 Key markets: 17
 
