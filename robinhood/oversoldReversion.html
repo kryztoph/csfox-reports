@@ -9,11 +9,15 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<p><strong>Generated:</strong> 2026-09-30 09:19:19 EDT (America/New_York)</p>
-<p><strong>Live-data note:</strong> This report was generated from Robinhood's live market-data scan at execution time. Results may change on a subsequent run.</p>
-<p><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code> <strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5. <strong>Returned sort order:</strong> Market cap descending.</p>
-<p><strong>Total matching instruments:</strong> <strong>0</strong></p>
-<p>No instruments matched the saved scan at generation time.</p>
+<p><strong>Generated:</strong> 2026-09-30 10:33:16 EDT (America/New_York) <strong>Data status:</strong> Live market-data snapshot at generation time; results may change on a subsequent run. <strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code> <strong>Sort order:</strong> Market cap descending (as returned by Robinhood)</p>
+<h2>Criteria</h2>
+<ul>
+<li>US stocks</li>
+<li>Daily 14-period RSI <code>&lt; 30</code></li>
+<li>Daily 30-period relative volume <code>&gt; 1</code></li>
+<li>Last price <code>&gt; $5</code></li>
+</ul>
+<p><strong>Total matching instruments:</strong> 3 <strong>Payload status:</strong> Complete; 3 rows were returned for 3 total matches.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -24,10 +28,40 @@
 <th>Volume</th>
 <th>Relative Volume</th>
 </tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=IRAB&amp;p=d">IRAB</a></td>
+<td>Iris Acquisition Corp II</td>
+<td>$10.15</td>
+<td>29.81</td>
+<td>0.30%</td>
+<td>$231.80M</td>
+<td>165</td>
+<td>1.40x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=IIF&amp;p=d">IIF</a></td>
+<td>Morgan Stanley India Investment Fund</td>
+<td>$21.65</td>
+<td>29.21</td>
+<td>0.37%</td>
+<td>$202.47M</td>
+<td>10,389.991809</td>
+<td>1.14x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=NINE&amp;p=d">NINE</a></td>
+<td>Nine Energy Service</td>
+<td>$7.76</td>
+<td>27.34</td>
+<td>1.17%</td>
+<td>$106.996M</td>
+<td>60,316.030399</td>
+<td>1.32x</td>
+</tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>The scan currently shows no instruments simultaneously meeting all configured oversold, relative-volume, asset-type, and price criteria. This is informational and does not indicate that market conditions will persist.</p>
-<p><strong>No-trading-actions disclaimer:</strong> This report is read-only market information. No orders, watchlists, scans, accounts, or trading settings were placed, reviewed, canceled, or modified.</p>
+<p>Three instruments currently meet the scan's oversold-RSI, elevated-relative-volume, price, and stock-type filters. The snapshot shows modest positive daily percentage changes across all three; this is descriptive only and does not establish a reversal or indicate future performance.</p>
+<p><strong>No trading actions were taken. This report is informational and is not investment advice.</strong></p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
