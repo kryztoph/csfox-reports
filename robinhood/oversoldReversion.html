@@ -9,30 +9,13 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
+<h2>Scan Error</h2>
 <ul>
-<li><strong>Generated:</strong> 2026-10-01 03:44:03 EDT (America/New_York)</li>
-<li><strong>Data status:</strong> Live Robinhood market-data scan executed at generation time; results may change on a later run.</li>
+<li><strong>Generation timestamp:</strong> 2026-10-01 07:46:01 EDT (-0400) (America/New_York)</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Sort order:</strong> Market cap descending.</li>
-<li><strong>Total matching instruments:</strong> <strong>0</strong></li>
+<li><strong>Returned error:</strong> <code>MCP call failed: AttributeError: 'NoneType' object has no attribute 'call_tool'</code></li>
 </ul>
-<h2>Matches</h2>
-<p>No instruments matched the scan criteria at generation time.</p>
-<div class="table-wrap"><table><thead><tr>
-<th>Symbol</th>
-<th>Name</th>
-<th>Last</th>
-<th>RSI</th>
-<th>% Change</th>
-<th>Market Cap</th>
-<th>Volume</th>
-<th>Relative Volume</th>
-</tr></thead><tbody>
-</tbody></table></div>
-<h2>Interpretation</h2>
-<p>The scan returned no instruments simultaneously meeting the configured oversold, relative-volume, price, and US-stock filters in this live snapshot. This is descriptive only and is not a signal or recommendation.</p>
-<blockquote><strong>No trading actions were taken. This report is informational and does not constitute investment advice.</strong></blockquote>
+<p>The live scan could not be executed, so no matching instruments or market-data rows are reported. No trading action was taken.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
