@@ -9,13 +9,125 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<h2>Scan Error</h2>
-<ul>
-<li><strong>Generation timestamp:</strong> 2026-10-01 07:46:01 EDT (-0400) (America/New_York)</li>
-<li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Returned error:</strong> <code>MCP call failed: AttributeError: 'NoneType' object has no attribute 'call_tool'</code></li>
-</ul>
-<p>The live scan could not be executed, so no matching instruments or market-data rows are reported. No trading action was taken.</p>
+<p><strong>Generated:</strong> 2026-10-01 10:33:37 EDT (America/New_York)</p>
+<p><strong>Data status:</strong> Live market data from Robinhood MCP at execution time. Results may change on the next run.</p>
+<p><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></p>
+<p><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</p>
+<p><strong>Total matching instruments:</strong> 10 <strong>Sort order:</strong> Market cap descending</p>
+<div class="table-wrap"><table><thead><tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Last</th>
+<th>RSI</th>
+<th>% Change</th>
+<th>Market Cap</th>
+<th>Volume</th>
+<th>Relative Volume</th>
+</tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=LINE&amp;p=d">LINE</a></td>
+<td>Lineage</td>
+<td>$33.7165</td>
+<td>23.18</td>
+<td>-1.18%</td>
+<td>$7.77B</td>
+<td>977,763.865</td>
+<td>1.17x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=CEPV&amp;p=d">CEPV</a></td>
+<td>Cantor Equity Partners V, Inc.</td>
+<td>$10.29</td>
+<td>9.06</td>
+<td>-0.10%</td>
+<td>$327.44M</td>
+<td>109,857.919</td>
+<td>24.94x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=LPCV&amp;p=d">LPCV</a></td>
+<td>Launchpad Cadenza Acquisition Corp I</td>
+<td>$10.08</td>
+<td>7.59</td>
+<td>+0.10%</td>
+<td>$289.51M</td>
+<td>49,102</td>
+<td>157.88x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=NTWO&amp;p=d">NTWO</a></td>
+<td>Newbury Street II Acquisition Corp</td>
+<td>$10.85</td>
+<td>28.30</td>
+<td>+0.23%</td>
+<td>$261.06M</td>
+<td>954,281.544</td>
+<td>4.17x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=PNAQ&amp;p=d">PNAQ</a></td>
+<td>Pinnacle Acquisition Corp</td>
+<td>$9.85</td>
+<td>17.72</td>
+<td>0.00%</td>
+<td>$255.85M</td>
+<td>54,062</td>
+<td>55.91x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=IRAB&amp;p=d">IRAB</a></td>
+<td>Iris Acquisition Corp II</td>
+<td>$10.15</td>
+<td>14.07</td>
+<td>+1.30%</td>
+<td>$229.50M</td>
+<td>31,376</td>
+<td>104.94x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=NSLR&amp;p=d">NSLR</a></td>
+<td>Neostellar Capital Corp.</td>
+<td>$7.28</td>
+<td>28.55</td>
+<td>-5.33%</td>
+<td>$203.84M</td>
+<td>489,976.705</td>
+<td>1.77x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=CHEC&amp;p=d">CHEC</a></td>
+<td>Chenghe Acquisition III Co.</td>
+<td>$10.29</td>
+<td>24.15</td>
+<td>+0.10%</td>
+<td>$177.58M</td>
+<td>32,042</td>
+<td>17.24x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=NXTT&amp;p=d">NXTT</a></td>
+<td>Next Technology Holding Inc.</td>
+<td>$5.4949</td>
+<td>26.81</td>
+<td>+5.27%</td>
+<td>$7.69M</td>
+<td>15,491.813</td>
+<td>1.41x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=PFFL&amp;p=d">PFFL</a></td>
+<td>ETRACS Monthly Pay 2xLeveraged Preferred Stock ETN</td>
+<td>$6.66</td>
+<td>21.89</td>
+<td>-0.84%</td>
+<td>—</td>
+<td>1,599.577</td>
+<td>84.43x</td>
+</tr>
+</tbody></table></div>
+<h2>Interpretation</h2>
+<p>The scan identifies 10 instruments with daily RSI below 30 alongside above-average 30-day relative volume. Several names show exceptionally elevated relative volume, while price performance is mixed; this is descriptive screening information, not a forecast or recommendation.</p>
+<p><strong>No trading actions were taken.</strong> This report is read-only and does not constitute investment advice.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
