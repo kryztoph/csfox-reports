@@ -10,14 +10,15 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-10-03 11:21:49 EDT (America/New_York)</li>
-<li><strong>Data:</strong> Live Robinhood market data captured at execution time; results may change on the next run.</li>
+<li><strong>Generated:</strong> 2026-10-03 12:23:22 EDT (America/New_York)</li>
+<li><strong>Data status:</strong> Live Robinhood market-data scan at execution time; results may change on a subsequent run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
 <li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Sort order:</strong> Market cap descending (live saved-scan order).</li>
+<li><strong>Sort order:</strong> Market cap descending (live scan order).</li>
 <li><strong>Total matching instruments:</strong> <strong>68</strong></li>
-<li><strong>Rows shown:</strong> First 25 rows in the returned live sorted order.</li>
+<li><strong>Rows shown:</strong> First 25 rows in the returned live sorted order. The payload contained all 68 matching rows; no payload truncation was detected.</li>
 </ul>
+<h2>Matching instruments</h2>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -281,7 +282,7 @@
 </tbody></table></div>
 <h2>Interpretation</h2>
 <p>The scan identifies 68 stocks meeting the configured oversold and price/relative-volume thresholds. The first 25 are predominantly large-cap names with RSI below 30; the screen is a technical condition only and does not establish a reversal, valuation, liquidity, or risk-adjusted opportunity.</p>
-<blockquote><strong>Disclaimer:</strong> This report is informational and non-prescriptive. No trading actions were taken. It is not investment advice, and nothing here is a recommendation to buy, sell, hold, or otherwise trade any security.</blockquote>
+<blockquote><strong>No trading actions were taken.</strong> This report is informational and non-prescriptive, is not investment advice, and is not a recommendation to buy, sell, hold, or otherwise trade any security.</blockquote>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
