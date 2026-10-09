@@ -2,15 +2,15 @@
 COT POSITION SUMMARY REPORT
 ====================================================================================================
 Data as of: 2026-09-29
-Report generated: 2026-10-03 12:19
+Report generated: 2026-10-09 06:22
 Contracts tracked: 38
 Key markets: 17
 
 MARKET SENTIMENT SUMMARY
 ----------------------------------------------------------------------------------------------------
   Bullish (>75th %ile):  11
-  Bearish (<25th %ile):  16
-  Neutral:               11
+  Bearish (<25th %ile):  15
+  Neutral:               12
 
 
 ====================================================================================================
@@ -19,7 +19,7 @@ METALS
 Market                              OI   Comm Net   Comm %   Spec Net   Spec %  Div %ile       Signal
 ----------------------------------------------------------------------------------------------------
 GOLD                    *      406,456   -250,967  -61.7%    +32,335   +8.0%        6  STRONG BEAR
-SILVER                  *      107,047    -40,010  -37.4%    +17,927  +16.7%       53      Neutral
+SILVER                  *      107,047    -40,010  -37.4%    +17,927  +16.7%       54      Neutral
 COPPER                  *      301,201    -94,841  -31.5%     +9,430   +3.1%       10  STRONG BEAR
 PLATINUM                        64,046    -17,048  -26.6%     +3,559   +5.6%       66      Neutral
 PALLADIUM                       18,602     +4,697  +25.2%     +1,128   +6.1%       44      Neutral
@@ -29,10 +29,10 @@ ENERGY
 ====================================================================================================
 Market                              OI   Comm Net   Comm %   Spec Net   Spec %  Div %ile       Signal
 ----------------------------------------------------------------------------------------------------
-CRUDE OIL               *    1,878,576   -142,618   -7.6%    +33,155   +1.8%       78    Lean Bull
+CRUDE OIL               *    1,878,576   -142,618   -7.6%    +33,155   +1.8%       77    Lean Bull
 NATURAL GAS             *      395,231   -266,206  -67.4%       +850   +0.2%        1  STRONG BEAR
-GASOLINE                       342,854    -78,189  -22.8%    +12,958   +3.8%       13    Lean Bear
-HEATING OIL                    238,533    -30,303  -12.7%    +18,212   +7.6%       29      Neutral
+GASOLINE                       342,854    -78,189  -22.8%    +12,958   +3.8%       14    Lean Bear
+HEATING OIL                    238,533    -30,303  -12.7%    +18,212   +7.6%       28      Neutral
 
 ====================================================================================================
 STOCK INDICES
@@ -50,7 +50,7 @@ FIXED INCOME
 ====================================================================================================
 Market                              OI   Comm Net   Comm %   Spec Net   Spec %  Div %ile       Signal
 ----------------------------------------------------------------------------------------------------
-T-BONDS                 *    1,879,173   +108,308   +5.8%    +78,567   +4.2%       89    Lean Bull
+T-BONDS                 *    1,879,173   +108,308   +5.8%    +78,567   +4.2%       90    Lean Bull
 10Y NOTES               *    5,676,556   +851,842  +15.0%    +48,773   +0.9%       74      Neutral
 2Y NOTES                     4,530,145   +752,017  +16.6%    +40,007   +0.9%        3  STRONG BEAR
 5Y NOTES                     6,789,241   +954,888  +14.1%    +40,813   +0.6%        1  STRONG BEAR
@@ -63,10 +63,10 @@ Market                              OI   Comm Net   Comm %   Spec Net   Spec %  
 EUR/USD                 *      853,959    +40,577   +4.8%    +22,679   +2.7%       93  STRONG BULL
 USD/JPY                 *      360,720    -55,985  -15.5%       +545   +0.2%       30      Neutral
 GBP/USD                 *      251,740   +100,882  +40.1%     -9,807   -3.9%       99  STRONG BULL
-USD/CHF                        133,872    +40,140  +30.0%    -15,523  -11.6%       25    Lean Bear
+USD/CHF                        133,872    +40,140  +30.0%    -15,523  -11.6%       25      Neutral
 USD/CAD                        347,274    +89,564  +25.8%    -10,893   -3.1%       32      Neutral
 AUD/USD                        309,800    +46,348  +15.0%    +16,891   +5.5%       41      Neutral
-NZD/USD                        114,777    +18,994  +16.5%     -1,679   -1.5%       35      Neutral
+NZD/USD                        114,777    +18,994  +16.5%     -1,679   -1.5%       34      Neutral
 USD/MXN                        274,821    -54,597  -19.9%     +2,195   +0.8%       80    Lean Bull
 
 ====================================================================================================
@@ -85,8 +85,8 @@ SOFTS
 ====================================================================================================
 Market                              OI   Comm Net   Comm %   Spec Net   Spec %  Div %ile       Signal
 ----------------------------------------------------------------------------------------------------
-COFFEE                  *      154,908    -14,532   -9.4%     +1,040   +0.7%       90  STRONG BULL
-SUGAR                   *    1,099,176   -222,921  -20.3%    +54,479   +5.0%        6  STRONG BEAR
+COFFEE                  *      154,908    -14,532   -9.4%     +1,040   +0.7%       91  STRONG BULL
+SUGAR                   *    1,099,176   -222,921  -20.3%    +54,479   +5.0%        5  STRONG BEAR
 COCOA                          183,888    +12,806   +7.0%     +1,313   +0.7%       83    Lean Bull
 COTTON                         389,494   -104,441  -26.8%     +7,828   +2.0%       21    Lean Bear
 
@@ -109,7 +109,7 @@ STRONG BULLISH (Commercials accumulating, Retail selling)
   GBP/USD                   Div:  99  Comm: +40.1%  Spec:  -3.9%
   RUSSELL 2000              Div:  95  Comm: +16.4%  Spec:  +1.7%
   EUR/USD                   Div:  93  Comm:  +4.8%  Spec:  +2.7%
-  COFFEE                    Div:  90  Comm:  -9.4%  Spec:  +0.7%
+  COFFEE                    Div:  91  Comm:  -9.4%  Spec:  +0.7%
 
 STRONG BEARISH (Commercials distributing, Retail buying)
 ----------------------------------------------------------------------------------------------------
@@ -119,7 +119,7 @@ STRONG BEARISH (Commercials distributing, Retail buying)
   5Y NOTES                  Div:   1  Comm: +14.1%  Spec:  +0.6%
   2Y NOTES                  Div:   3  Comm: +16.6%  Spec:  +0.9%
   CORN                      Div:   3  Comm: -24.1%  Spec:  -3.3%
-  SUGAR                     Div:   6  Comm: -20.3%  Spec:  +5.0%
+  SUGAR                     Div:   5  Comm: -20.3%  Spec:  +5.0%
   GOLD                      Div:   6  Comm: -61.7%  Spec:  +8.0%
   SOYBEANS                  Div:   6  Comm: -21.4%  Spec:  -2.2%
   WHEAT                     Div:   8  Comm:  +2.8%  Spec:  +0.6%
@@ -143,4 +143,3 @@ LEGEND
   Lean Bear   = Divergence <= 25th percentile
   STRONG BEAR = Divergence <= 10th percentile
 ====================================================================================================
-© 2026 csfox.com. All rights reserved.

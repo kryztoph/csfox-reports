@@ -1,6 +1,6 @@
 COT TRADE SETUP REPORT
 Data as of: 2026-09-29
-Generated: 2026-10-03 12:19
+Generated: 2026-10-09 06:22
 
 Strong Bullish: 1 | Moderate Bullish: 1
 Strong Bearish: 2 | Moderate Bearish: 5
@@ -9,7 +9,5 @@ STRONG BULLISH:
   EUR/USD (Div: 93)
 
 STRONG BEARISH:
-  SUGAR (Div: 6)
+  SUGAR (Div: 5)
   SOYBEAN OIL (Div: 8)
-
-© 2026 csfox.com. All rights reserved.
