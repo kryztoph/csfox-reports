@@ -1,6 +1,6 @@
 COT TRADE SETUP REPORT
 Data as of: 2026-09-29
-Generated: 2026-10-09 06:22
+Generated: 2026-10-09 09:11
 
 Strong Bullish: 1 | Moderate Bullish: 1
 Strong Bearish: 2 | Moderate Bearish: 5
@@ -11,3 +11,5 @@ STRONG BULLISH:
 STRONG BEARISH:
   SUGAR (Div: 5)
   SOYBEAN OIL (Div: 8)
+
+© 2026 csfox.com. All rights reserved.
