@@ -9,13 +9,103 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<h2>Scan error</h2>
-<ul>
-<li><strong>Generated:</strong> 2026-10-16 09:15:16 EDT (-0400), America/New_York</li>
-<li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Error:</strong> The MCP transport session to 'robinhood_trading' expired while this write-capable call was in flight, so the outcome is UNKNOWN — the operation may or may not have taken effect server-side. It was NOT automatically retried to avoid a duplicate side effect. The connection has been re-established. Verify whether the operation took effect (e.g. with a read-only tool) before re-invoking it.</li>
-</ul>
-<p>No live scan results were available, so no matching-instrument table is included. No trading action was taken.</p>
+<p><strong>Generated:</strong> 2026-10-16 12:36:00 EDT (America/New_York)</p>
+<p><strong>Data note:</strong> Live market-data snapshot retrieved at generation time. Results may change on a subsequent run.</p>
+<p><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code> <strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>. <strong>Returned sort order:</strong> Market cap descending.</p>
+<p><strong>Total matching instruments:</strong> <strong>8</strong></p>
+<div class="table-wrap"><table><thead><tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Last</th>
+<th>RSI</th>
+<th>% Change</th>
+<th>Market Cap</th>
+<th>Volume</th>
+<th>Relative Volume</th>
+</tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=CZR&amp;p=d">CZR</a></td>
+<td>Caesars Entertainment</td>
+<td>$28.88</td>
+<td>27.07</td>
+<td>-1.26%</td>
+<td>$5.960568627B</td>
+<td>9,669,479.446631</td>
+<td>1.22x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=ETRA&amp;p=d">ETRA</a></td>
+<td>Electra Therapeutics</td>
+<td>$8.90</td>
+<td>20.50</td>
+<td>1.71%</td>
+<td>$549.210856M</td>
+<td>582,374.1106</td>
+<td>3.24x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=FTH&amp;p=d">FTH</a></td>
+<td>Faeth Therapeutics</td>
+<td>$18.51</td>
+<td>27.86</td>
+<td>-10.15%</td>
+<td>$532.312755M</td>
+<td>248,005.629803</td>
+<td>1.07x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=ZKP&amp;p=d">ZKP</a></td>
+<td>Lafayette Digital Acquisition Corp I</td>
+<td>$10.04</td>
+<td>15.75</td>
+<td>0.00%</td>
+<td>$392.497063M</td>
+<td>58,986</td>
+<td>1.29x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=TMTS&amp;p=d">TMTS</a></td>
+<td>Spartacus Acquisition Corp II</td>
+<td>$10.00</td>
+<td>20.67</td>
+<td>0.00%</td>
+<td>$306.66667M</td>
+<td>337,718</td>
+<td>8.94x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=JATT&amp;p=d">JATT</a></td>
+<td>JATT II Acquisition Corp</td>
+<td>$10.25</td>
+<td>18.79</td>
+<td>-0.58%</td>
+<td>$80.418M</td>
+<td>4,810</td>
+<td>1.37x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=LNSR&amp;p=d">LNSR</a></td>
+<td>Lensar</td>
+<td>$5.89</td>
+<td>27.70</td>
+<td>-2.32%</td>
+<td>$74.452341M</td>
+<td>52,200.946801</td>
+<td>1.26x</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=INKT&amp;p=d">INKT</a></td>
+<td>MiNK Therapeutics</td>
+<td>$9.665</td>
+<td>28.49</td>
+<td>-2.77%</td>
+<td>$50.723839M</td>
+<td>10,949.51322</td>
+<td>1.08x</td>
+</tr>
+</tbody></table></div>
+<p><strong>Interpretation:</strong> Eight stocks currently meet the scan's oversold-RSI, above-average-relative-volume, and minimum-price conditions. The returned set is led by CZR by market capitalization; FTH has the largest daily decline, while TMTS has the highest relative volume. This is descriptive only and does not indicate that any security will revert or outperform.</p>
+<p><strong>No trading actions were taken.</strong> This report is informational only and is not a recommendation or instruction to buy, sell, or trade.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
