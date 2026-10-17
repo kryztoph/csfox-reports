@@ -1,16 +1,16 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-10-06
-Generated: 2026-10-10 12:32
+Data as of: 2026-10-13
+Generated: 2026-10-17 11:17
 
-Strong Bullish: 1 | Moderate Bullish: 2
-Strong Bearish: 3 | Moderate Bearish: 3
+Strong Bullish: 1 | Moderate Bullish: 5
+Strong Bearish: 3 | Moderate Bearish: 2
 
 STRONG BULLISH:
-  GBP/USD (Div: 99)
+  GBP/USD (Div: 100)
 
 STRONG BEARISH:
-  SOYBEAN OIL (Div: 4)
-  SUGAR (Div: 5)
-  GASOLINE (Div: 6)
+  GASOLINE (Div: 1)
+  SUGAR (Div: 4)
+  SOYBEAN OIL (Div: 6)
 
 © 2026 csfox.com. All rights reserved.
