@@ -8,10 +8,52 @@
 </style>
 </head>
 <body>
-<h1>High Options Volume + IV — ERROR</h1>
-<p><strong>Generated:</strong> 2026-10-30T08:54:02-04:00 (America/New_York) <strong>Scan ID:</strong> <code>eda429dd-7469-424e-81cd-f348900abcb4</code></p>
-<p>The live <code>run_scan</code> call returned data, but the complete response was not available as a persisted temporary JSON capture for the renderer. The report was overwritten with this error instead of presenting partial or stale data.</p>
-<p><strong>Error:</strong> complete <code>run_scan</code> capture unavailable as a readable temporary JSON payload after the live call.</p>
+<h1>High Options Volume + IV</h1>
+<p><strong>Generated:</strong> 2026-10-30T09:56:25.961309-04:00 (America/New_York)</p>
+<p><strong>Data:</strong> Robinhood scan response at retrieval time. Outside market hours, values may reflect the most recent trading session.</p>
+<p><strong>Scan ID:</strong> <code>eda429dd-7469-424e-81cd-f348900abcb4</code></p>
+<p><strong>Preset:</strong> HIGH_OPTIONS_VOLUME_IV</p>
+<h2>Active filters</h2>
+<ul>
+<li>Relative options volume &gt; 2 (1d; 30)</li>
+<li>Asset type ANY_OF STOCK</li>
+</ul>
+<p><strong>Sort order:</strong> Implied volatility desc</p>
+<p><strong>Total matching instruments:</strong> <strong>2</strong></p>
+<p>Showing the first 2 available results in provider order.</p>
+<div class="table-wrap"><table><thead><tr>
+<th>Symbol</th>
+<th>Name</th>
+<th>Last</th>
+<th>% Change</th>
+<th>Market cap</th>
+<th>Volume</th>
+<th>Relative options volume</th>
+<th>Implied volatility</th>
+</tr></thead><tbody>
+<tr>
+<td><a href="https://finviz.com/stock?t=SPXC&amp;p=d">SPXC</a></td>
+<td>SPX Technologies</td>
+<td>161.79</td>
+<td>-3.27%</td>
+<td>8,377,360,943</td>
+<td>299,899</td>
+<td>2.89×</td>
+<td>48.18%</td>
+</tr>
+<tr>
+<td><a href="https://finviz.com/stock?t=LXP&amp;p=d">LXP</a></td>
+<td>LXP Industrial Trust</td>
+<td>61.18</td>
+<td>0.01%</td>
+<td>3,606,664,494</td>
+<td>26,416</td>
+<td>3.34×</td>
+<td>12.79%</td>
+</tr>
+</tbody></table></div>
+<p>This preset was found to use the same filters and sorting as our Unusual Options Activity scan at setup: relative options volume above 2× the 30-day average, sorted by implied volatility. It does not apply a separate minimum-IV filter.</p>
+<p>Informational only; not investment advice. Report generation is read-only and performs no trading actions.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
