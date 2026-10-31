@@ -1,12 +1,12 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-10-20
-Generated: 2026-10-24 12:01
+Data as of: 2026-10-27
+Generated: 2026-10-31 07:01
 
 Strong Bullish: 1 | Moderate Bullish: 4
-Strong Bearish: 1 | Moderate Bearish: 4
+Strong Bearish: 1 | Moderate Bearish: 2
 
 STRONG BULLISH:
-  GBP/USD (Div: 97)
+  PLATINUM (Div: 97)
 
 STRONG BEARISH:
   SUGAR (Div: 5)
