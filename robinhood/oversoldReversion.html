@@ -10,13 +10,13 @@
 <body>
 <h1>Oversold Reversion</h1>
 <ul>
-<li><strong>Generated:</strong> 2026-11-01 13:25:56 EST (America/New_York)</li>
+<li><strong>Generated:</strong> 2026-11-01 14:26:58 EST (America/New_York)</li>
 <li><strong>Data status:</strong> Live Robinhood scan data evaluated at generation time; results can change on the next run.</li>
 <li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
 <li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Sort order:</strong> Market cap descending (live scan order).</li>
+<li><strong>Sort order:</strong> Market cap descending (live provider order).</li>
 <li><strong>Total matching instruments:</strong> <strong>37</strong></li>
-<li><strong>Rows available:</strong> 37; showing the first 25.</li>
+<li><strong>Payload status:</strong> Robinhood returned all 37 matching rows. This report displays the first 25 rows, as requested; the MCP payload was not truncated.</li>
 </ul>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
@@ -279,9 +279,9 @@
 <td>1.000018x</td>
 </tr>
 </tbody></table></div>
-<h2>Interpretation</h2>
-<p>The scan identifies 37 stocks meeting the configured oversold-RSI, relative-volume, and price filters. The displayed rows span a range of market capitalizations and show RSI readings below 30; this is a screening result, not evidence that a rebound will occur or that any security is suitable for a particular strategy.</p>
-<p><strong>No trading actions were taken.</strong> This report is informational only and is not investment advice or a recommendation to buy, sell, or hold any instrument.</p>
+<h3>Interpretation</h3>
+<p>The scan identifies 37 stocks meeting the configured oversold and activity thresholds. The displayed names have daily RSI readings below 30, while relative volume is only modestly above 1x for these results. Oversold conditions can persist and do not by themselves indicate a reversal, quality, liquidity, or suitability.</p>
+<p><strong>No trading actions were taken. This is informational market data, not investment advice.</strong></p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
