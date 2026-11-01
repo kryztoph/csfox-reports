@@ -9,15 +9,10 @@
 </head>
 <body>
 <h1>Oversold Reversion</h1>
-<ul>
-<li><strong>Generated:</strong> 2026-11-01 14:26:58 EST (America/New_York)</li>
-<li><strong>Data status:</strong> Live Robinhood scan data evaluated at generation time; results can change on the next run.</li>
-<li><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code></li>
-<li><strong>Criteria:</strong> US stocks; daily 14-period RSI <code>&lt; 30</code>; daily 30-period relative volume <code>&gt; 1</code>; last price <code>&gt; $5</code>.</li>
-<li><strong>Sort order:</strong> Market cap descending (live provider order).</li>
-<li><strong>Total matching instruments:</strong> <strong>37</strong></li>
-<li><strong>Payload status:</strong> Robinhood returned all 37 matching rows. This report displays the first 25 rows, as requested; the MCP payload was not truncated.</li>
-</ul>
+<p><strong>Generated:</strong> 2026-11-01T15:28:07-05:00 (America/New_York)</p>
+<p><strong>Live-data note:</strong> This report was generated from a live Robinhood saved-scan execution; results can change between runs.</p>
+<p><strong>Scan ID:</strong> <code>21c87468-513d-4b7f-a10f-46bada9ae605</code> <strong>Criteria:</strong> US stocks; daily 14-period RSI below 30; daily 30-period relative volume greater than 1; last price greater than $5. <strong>Sort order:</strong> Market cap descending (live scan order).</p>
+<p><strong>Total matching instruments:</strong> 37 <strong>Rows available:</strong> 37 <strong>Rows shown:</strong> 25 (first 25 in live sorted order)</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -226,7 +221,7 @@
 <td>0.00%</td>
 <td>1.967218779e+09</td>
 <td>2.0196229286634e+07</td>
-<td>1.000044x</td>
+<td>1.000045x</td>
 </tr>
 <tr>
 <td><a href="https://finviz.com/stock?t=SVM&amp;p=d">SVM</a></td>
@@ -279,9 +274,8 @@
 <td>1.000018x</td>
 </tr>
 </tbody></table></div>
-<h3>Interpretation</h3>
-<p>The scan identifies 37 stocks meeting the configured oversold and activity thresholds. The displayed names have daily RSI readings below 30, while relative volume is only modestly above 1x for these results. Oversold conditions can persist and do not by themselves indicate a reversal, quality, liquidity, or suitability.</p>
-<p><strong>No trading actions were taken. This is informational market data, not investment advice.</strong></p>
+<p><strong>Interpretation:</strong> The scan identifies 37 stocks with daily RSI below 30 alongside relative volume just above 1x and prices above $5. This is a screening snapshot of potentially oversold conditions, not a signal that a rebound will occur; additional context and risk analysis would be required.</p>
+<p><strong>No-trading-actions disclaimer:</strong> Informational report only. No orders were placed, reviewed, canceled, or modified, and no watchlists, scans, accounts, or trading settings were changed.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
