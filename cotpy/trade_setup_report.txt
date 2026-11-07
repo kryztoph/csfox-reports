@@ -1,6 +1,6 @@
 COT TRADE SETUP REPORT
 Data as of: 2026-11-03
-Generated: 2026-11-07 09:10
+Generated: 2026-11-07 12:01
 
 Strong Bullish: 1 | Moderate Bullish: 4
 Strong Bearish: 1 | Moderate Bearish: 1
