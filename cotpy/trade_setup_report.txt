@@ -1,14 +1,11 @@
 COT TRADE SETUP REPORT
-Data as of: 2026-11-03
-Generated: 2026-11-07 12:01
+Data as of: 2026-11-10
+Generated: 2026-11-17 05:48
 
-Strong Bullish: 1 | Moderate Bullish: 4
-Strong Bearish: 1 | Moderate Bearish: 1
+Strong Bullish: 1 | Moderate Bullish: 2
+Strong Bearish: 0 | Moderate Bearish: 3
 
 STRONG BULLISH:
   PLATINUM (Div: 99)
-
-STRONG BEARISH:
-  NASDAQ 100 (Div: 1)
 
 © 2026 csfox.com. All rights reserved.
