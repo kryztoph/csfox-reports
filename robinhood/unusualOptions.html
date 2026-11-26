@@ -9,8 +9,10 @@
 </head>
 <body>
 <h1>Unusual Options Activity</h1>
-<p><strong>Generated:</strong> 2026-11-26 05:57:36 EST (America/New_York) <strong>Data source:</strong> Live Robinhood market data. Results are evaluated when the scan runs and may change on rerun.</p>
-<p><strong>Scan ID:</strong> <code>7a64f23e-511b-4b62-b3b5-b5c2a239c865</code> <strong>Criteria:</strong> US stocks with relative options volume greater than 2x the 30-day daily average, sorted by implied volatility descending. <strong>Total matching instruments:</strong> <strong>48</strong> <strong>Returned rows available:</strong> 48; displaying the first 25 in the scan's live sorted order.</p>
+<p><strong>Generated:</strong> 2026-11-26 06:59:33 EST (America/New_York) <strong>Data source:</strong> Live Robinhood market data. Results are computed when the scan runs and may change on subsequent runs.</p>
+<p><strong>Scan ID:</strong> <code>7a64f23e-511b-4b62-b3b5-b5c2a239c865</code> <strong>Criteria:</strong> US stocks with relative options volume greater than 2x the 30-day daily average, sorted by implied volatility descending. <strong>Sort order:</strong> Implied volatility descending <strong>Total matching instruments:</strong> <strong>48</strong></p>
+<h2>Results</h2>
+<p>The table shows the first 25 results in the scan's live sorted order.</p>
 <div class="table-wrap"><table><thead><tr>
 <th>Symbol</th>
 <th>Name</th>
@@ -299,8 +301,8 @@
 </tr>
 </tbody></table></div>
 <h2>Interpretation</h2>
-<p>This scan identifies US stocks whose current daily options volume is more than twice their average daily options volume over the prior 30-day measurement window. The results are ordered by implied volatility, which reflects the options market's quoted expectation of potential price variability and is not a forecast of direction or outcome. Relative options volume and implied volatility can change during the trading session; the scan does not by itself establish cause, sentiment, liquidity, suitability, or expected returns.</p>
-<p>This report is informational only and does not place trades, review orders, cancel orders, or modify any Robinhood account or scan settings.</p>
+<p>This scan identifies US stocks whose current daily options volume is more than twice their average daily options volume over the prior 30-day period. The results are ordered by implied volatility, which represents the options market's annualized volatility expectation embedded in current option prices. Relative volume provides context for the stock's share trading activity compared with its average. These measures describe market activity and pricing conditions; they do not indicate direction or predict outcomes.</p>
+<p>This report is informational only and does not place trades or modify any Robinhood account, order, watchlist, scan, or setting.</p>
 <footer><a href="index.html">Robinhood report index</a> · Generated from the local Markdown report. Informational only; no trading actions.</footer>
 </body>
 </html>
